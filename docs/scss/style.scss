@@ -9,7 +9,7 @@
 
 //=======================header====================================
 .header__bg {
-    background: url("/Image/Images/header-bg.jpg") center center / cover no-repeat;
+    background: url("../Image/Images/header-bg.jpg") center center / cover no-repeat;
     max-height: 100%;
 
 }
@@ -792,7 +792,7 @@
             width: 295px;
             height: 285px;
             display: block;
-            background: url("/Image/Decor/tachka.png")0 0/cover no-repeat;
+            background: url("../Image/Decor/tachka.png")0 0/cover no-repeat;
         }
 
         &::after {
