@@ -336,7 +336,7 @@ input::placeholder {
 }
 
 .header__bg {
-  background: url("/Image/Images/header-bg.jpg") center center/cover no-repeat;
+  background: url("../Image/Images/header-bg.jpg") center center/cover no-repeat;
   max-height: 100%;
 }
 
@@ -1038,7 +1038,7 @@ input::placeholder {
   width: 295px;
   height: 285px;
   display: block;
-  background: url("/Image/Decor/tachka.png") 0 0/cover no-repeat;
+  background: url("../Image/Decor/tachka.png") 0 0/cover no-repeat;
 }
 .brands__inner::after {
   display: block;
