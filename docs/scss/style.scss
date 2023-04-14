@@ -15,7 +15,6 @@
 }
 
 .header {
-
     &__inner {
         padding-top: 30px;
     }
@@ -45,7 +44,6 @@
     &__nav {
         display: flex;
     }
-
 
     &__nav-list {
         display: flex;
@@ -78,7 +76,6 @@
         font-size: 25px;
         line-height: 25px;
         color: $text-color;
-
     }
 
     &__phone-text {
@@ -135,7 +132,6 @@
         @extend %defualt-btn;
         font-weight: 700;
 
-
         &::after {
             position: absolute;
             content: "";
@@ -146,7 +142,6 @@
             width: 114px;
             height: 120px;
         }
-
     }
 }
 
@@ -167,7 +162,6 @@
             color: $text-span;
         }
     }
-
 
     &__items {
         display: grid;
@@ -202,9 +196,7 @@
         top: 32%;
         left: 50%;
         transform: translate(-50%);
-
     }
-
 
     &__item-name {
         color: white;
@@ -220,8 +212,6 @@
         line-height: 42px;
         text-align: center;
     }
-
-
 
     &__link {
         z-index: 1;
@@ -248,7 +238,6 @@
         @extend %defualt-btn;
         margin: 0 auto;
         font-weight: 700;
-
     }
 
     &__backet {
@@ -317,8 +306,6 @@
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.589);
     }
 
-
-
     &__row-tariff {
         font-weight: 700;
         line-height: 28px;
@@ -329,9 +316,7 @@
     &__row-area {
         font-size: 23px;
         line-height: 28px;
-
     }
-
 
     &__row-list {
         padding: 35px 5px;
@@ -370,8 +355,6 @@
     &__content {
         display: flex;
         justify-content: space-between;
-
-
     }
 
     &__form {
@@ -380,7 +363,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
     }
 
     &__item {
@@ -405,7 +387,6 @@
 
     &__image {
         max-width: 50%;
-
     }
 
     &__count {
@@ -417,7 +398,6 @@
         font-size: 18px;
         color: rgba(0, 0, 0, 0.754);
         margin-bottom: 20px;
-
     }
 
     &__final {
@@ -439,9 +419,6 @@
 
     &__form {
         position: relative;
-
-
-
         &:after {
             content: "";
             display: block;
@@ -451,14 +428,11 @@
             height: 385px;
             left: 145%;
             bottom: -45%;
-
         }
-
     }
 
     &__inp {
         position: relative;
-
         &::before {
             position: absolute;
             content: "10";
@@ -467,7 +441,6 @@
             font-family: Gilroy;
             font-size: 16px;
         }
-
         &::after {
             position: absolute;
             content: "300";
@@ -476,7 +449,6 @@
             right: 0%;
             font-family: Gilroy;
             font-size: 16px;
-
         }
 
     }
@@ -492,9 +464,6 @@
         flex-direction: column;
         align-items: center;
     }
-
-
-    &__inner {}
 
     &__title {
         @extend %default-title;
@@ -514,7 +483,6 @@
         row-gap: 50px;
         column-gap: 80px;
         margin-bottom: 50px;
-
     }
 
 
@@ -563,10 +531,7 @@
 
     &__item-bolgar {
         transform: translate(3%, -7%);
-
     }
-
-
     &__item-kirpich {
         transform: translate(4%, 10%)
     }
@@ -625,7 +590,6 @@
             color: $text-span;
         }
 
-
     }
 
     &__list {
@@ -653,16 +617,11 @@
         }
     }
 
-
-
-
-    &__holder {
+&__holder {
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
-
-
     }
 
     &__form {
@@ -679,15 +638,11 @@
         }
     }
 
-
-    &__box {}
-
     &__subtitle {
         font-weight: 700;
         font-size: 28px;
         line-height: 35px;
         margin-bottom: 9px;
-
     }
 
     &__text {
@@ -717,7 +672,6 @@
 // ---------------------steps--------------------------
 .steps {
     padding: 75px 0 118px;
-
 
     &__inner {
         position: relative;
@@ -753,15 +707,12 @@
         margin-top: 20px;
     }
 
-    &__item {}
-
     &__title {
         @extend %default-title;
 
         & span {
             color: $text-span;
         }
-
     }
 
     &__btn {
@@ -769,7 +720,6 @@
         @extend %defualt-btn;
         max-width: 320px;
     }
-
 
 }
 
@@ -867,15 +817,15 @@
             color: $text-span;
         }
     }
+
     &__box {
-       
         margin-top: 47px;
         max-width: 750px;
         display: flex;
         justify-content: center;
     }
 
-    &__info{
+    &__info {
         margin-right: 15px;
     }
 
@@ -890,8 +840,9 @@
     &__btn {
         @extend %defualt-btn;
     }
-&__logo{
-    max-width: none;
-}
+
+    &__logo {
+        max-width: none;
+    }
 
 }
