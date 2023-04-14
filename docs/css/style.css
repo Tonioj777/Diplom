@@ -779,7 +779,7 @@ input::placeholder {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 170px);
+  grid-template-rows: repeat(3, 1fr);
   row-gap: 50px;
   -webkit-column-gap: 80px;
      -moz-column-gap: 80px;
